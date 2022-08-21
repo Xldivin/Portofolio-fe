@@ -1,0 +1,32 @@
+import React from 'react'
+import { ImFilesEmpty } from 'react-icons/im';
+import { SiGithub } from 'react-icons/si';
+
+function Project_Card({project}) {
+  return (
+    <div>
+      <div className='max-w-sm rounded overflow-hidden shadow-lg mt-6 h-80 w-75 bg-slate-800 shadow hover:shadow-lg hover:-translate-y-2'>
+        <div className='flex justify-between'>
+          <ImFilesEmpty size={40} className='text-textGreenPhant ml-4 mt-4' />
+          <SiGithub size={30} className='text-textWhittishPhant mr-4 mt-4' />
+        </div>
+        <div className='ml-4 mt-2'>
+          <h5 className='text-textWhitePhant font-bold text-3xl hover:text-textGreenPhant'>
+          {project.project}
+          </h5>
+          <p className='text-textWhittishPhant text-lg h-1'>
+            {project.description}
+          </p>
+          <div className='mt-40'>
+          <ul className='flex'>
+          <li className='text-slate-500 font-mono'>{project.technology}</li>
+          <li className='text-slate-500 font-mono ml-4'>{project.technology}</li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Project_Card
