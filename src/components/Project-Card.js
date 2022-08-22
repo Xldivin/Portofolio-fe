@@ -5,7 +5,8 @@ import { SiGithub } from 'react-icons/si';
 function Project_Card({project}) {
   return (
     <div>
-      <div className='max-w-sm rounded overflow-hidden shadow-lg mt-6 h-80 w-75 bg-slate-800 shadow hover:shadow-lg hover:-translate-y-2'>
+      <div className='w-80 md:w-75 lg:w-80 '>
+      <div className='max-w-sm rounded overflow-hidden shadow-lg mt-6 h-80 bg-slate-800 shadow hover:shadow-lg hover:-translate-y-2 ml-10 md:w-75'>
         <div className='flex justify-between'>
           <ImFilesEmpty size={40} className='text-textGreenPhant ml-4 mt-4' />
           <SiGithub size={30} className='text-textWhittishPhant mr-4 mt-4' />
@@ -24,6 +25,7 @@ function Project_Card({project}) {
           </ul>
           </div>
         </div>
+      </div>
       </div>
     </div>
   )

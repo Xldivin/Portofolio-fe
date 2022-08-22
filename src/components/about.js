@@ -4,14 +4,15 @@ import landing from './img/strikerpht_1.jpg'
 
 function about() {
   return (
-    <div className='col-start-1 col-end-13 row-start-1 ml-10 lg:col-start-2 col-end-11 row-start-2 row-end-13 md:col-start-2 col-end-9 bg-bgColor ml-10'>
+    <div className='col-start-1 col-end-13 row-start-1 lg:col-start-2 col-end-11 row-start-2 row-end-13 md:col-start-2 col-end-13 bg-bgColor'>
+      <div className='ml-6 lg:ml-24 mt-36 md:mt-36 ml-6'>
       <div className='mt-24 text-white text-4xl'>
       <span className='text-textGreenPhant font-bold'>01.</span>
       <span className='text-textWhitePhant text-4xl ml-8 underline font-bold'>About Me</span>
       </div>
       <div className='mt-10 flex lg:flex-row md:flex flex-col'>
       <div>
-      <p className='text-textWhittishPhant text-xl'>Hello! My name is Axel and I enjoy building things that live<br/>
+      <p className='text-textWhittishPhant text-xl md:w-70'>Hello! My name is Axel and I enjoy building things that live<br/>
       on the internet.my journey started in 2020 when I joined the<br/>
       Andela technical leadership program which helped me to start<br/>
       this career also am a Passionate software development professional with <br/>
@@ -46,6 +47,7 @@ function about() {
       className='h-80 ml-10'
       src={landing}
       />
+      </div>
       </div>
       </div>
     </div>

@@ -2,8 +2,8 @@ import React from 'react'
 
 function Main() {
   return (
-    <div className='col-start-1 col-end-13 row-start-1 lg:col-start-2 col-end-11 row-start-2 row-end-13 md:col-start-2 col-end-9 bg-bgColor'>
-      <div className='ml-10 lg:ml-24 mt-36 md:mt-36 ml-6'>
+    <div className='col-start-1 col-end-13 row-start-1 lg:col-start-2 col-end-13 row-start-2 row-end-13 md:col-start-2 col-end-13 bg-bgColor'>
+      <div className='ml-6 lg:ml-24 relative top-24 md:mt-36 ml-6'>
         <div>
         <h1 className='text-textGreenPhant font-mono'>Hi, my name is </h1>
         </div>
