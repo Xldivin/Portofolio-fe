@@ -1,4 +1,5 @@
 import React from 'react'
+import Resume from '../assets/Resume.pdf'
 
 function Main() {
   return (
@@ -22,7 +23,7 @@ function Main() {
         </p>
         <br/>
         <button className='border rounded-none w-32 h-12 border-textGreenPhant hover:bg-zinc-400 text-textGreenPhant'>
-          <a href=''>
+          <a href={Resume} target="_blank" rel="noreferrer">
           Resume
           </a>
         </button>

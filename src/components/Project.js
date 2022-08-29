@@ -37,7 +37,6 @@ function Project() {
       <span className='text-textWhitePhant text-4xl ml-8 underline font-bold'>Recent Work</span>
       </div>
       <div>
-        <p className='text-textWhittishPhant hover:text-textGreenPhant hover:underline ml-16 mt-4 w-80'>View a List of all projects</p>
       </div>
       <div className='grid grid-cols-1 gap-5 md:grid-cols-2 gap-24 lg:grid-cols-3 gap-5'>
       {
@@ -45,6 +44,13 @@ function Project() {
                 return <Project_Card project={project} />
             })
       }
+      </div>
+      <div className='ml-32 md:relative left-40 mt-10 lg:ml-32 lg:left-96'>
+      <button className='border rounded-none w-32 h-12 border-textGreenPhant hover:bg-zinc-400 text-textGreenPhant'>
+          <a href='' target="_blank" rel="noreferrer">
+            Show More
+          </a>
+      </button>
       </div>
       </div>
     </div>
