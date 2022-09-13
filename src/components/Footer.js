@@ -7,28 +7,25 @@ import { GoLocation } from 'react-icons/go';
 import { AiTwotonePhone } from 'react-icons/ai';
 import { SiMinutemailer } from 'react-icons/si';
 
-
-
-
 function Footer() {
   return (
-    <div>
-    <footer className='w-6/6 h-96 bg-slate-800'>
+    <div className='w-fit h-96 md:w-screen h-11/12 lg:w-screen h-96 bg-slate-800'>
+    <footer className='mt-20'>
       <div className='h-72 border-b-2 border-textWhittishPhant'>
-        <div className='relative top-20'>
-          <div className='ml-20'>
+        <div className='hidden md:block relative top-10 lg:block'>
+          <div className='lg:ml-20 md:ml-6'>
           <p className='text-textWhittishPhant'>Logo</p>
           </div>
-          <div className='ml-20 relative top-6'>
+          <div className='md:ml-2 w-40 lg:ml-20 relative top-6'>
             <p className='text-textWhittishPhant'>
               Well-qualified Full Stack Developer<br/>quick leaner and can be<br/> able to work in any environment.
             </p>
           </div>
         </div>
-        <div className='flex ml-96 pl-80'>
-        <div >
+        <div className='flex relative right-72 md:bottom-32 md:right-6  lg:ml-96 pl-80'>
+        <div className='relative right-6'>
           <h3 className='text-textWhittishPhant'>Links</h3>
-          <ul className='list-none mt-4'>
+          <ul className='list-none'>
           <li className='flex'>
             <span className='mt-1'>
             <FaChevronRight className='text-textWhittishPhant'/>
@@ -63,9 +60,9 @@ function Footer() {
           </li>
           </ul>
         </div>
-        <div className='ml-20'>
+        <div className='relative right-2 md:ml-6 lg:ml-20'>
         <h3 className='text-textWhittishPhant'>Services</h3>
-        <ul className='list-none mt-4'>
+        <ul className='list-none'>
             <li className='flex'>
             <span className='mt-1'>
             <FaChevronRight className='text-textWhittishPhant'/>
@@ -98,7 +95,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className='ml-20'>
+        <div className='md:ml-6 lg:ml-20'>
         <h3 className='text-textWhittishPhant'>Have a Questions</h3>
         <ul className='list-none mt-4'>
           <li className='flex'>
@@ -150,7 +147,7 @@ function Footer() {
         </div>
         </div>
       </div>
-      <div className='text-center mt-10 text-textWhittishPhant'>
+      <div className='text-center mt-10 text-textWhittishPhant mr-64 md:mr-10 lg'>
         <p>Developed by Axel Divin
         </p>
         <p>Done with <span className='text-red-600'>❤️</span></p>
