@@ -1,26 +1,76 @@
-import React from 'react'
-import "../Nav.css"
+import React, { useState } from 'react'
+import "../Nav.css";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
+import About from './about'
+import { Link } from 'react-scroll'
 
 function Navbar() {
+  const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
   return (
-    <nav className= "top-0 sticky bg-slate-800 text-white py-4 flex justify-between lg:row-start-1 row-end-2 col-start-1 col-end-13">
+    <nav className= "fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-800 text-gray-300 lg:row-start-1 row-end-2 col-start-1 col-end-13">
       <div className='lg:mt-4 md:mt-4'>logo</div>
       <div className='md:mt-4 block lg:mt-4 block'>
-        <ol className='flex space-x-8 mr-6'>
-          <li className='space-x-2'>
+        <ol className='hidden md:flex space-x-8 mr-6'>
+        <li className='space-x-2'>
             <span className='text-textGreenPhant'>01.</span>
-            <a href='/' className='hover:text-textGreenPhant text-textWhitePhant'>About</a>
+            <Link to='home' smooth={true} duration={500}>
+              Home
+            </Link>
           </li>
           <li className='space-x-2'>
             <span className='text-textGreenPhant'>02.</span>
-            <a href='/' className='hover:text-textGreenPhant text-textWhitePhant'>Project</a>
+            <Link to='about' smooth={true} duration={500}>
+              About
+            </Link>
           </li>
           <li className='space-x-2'>
             <span className='text-textGreenPhant'>03.</span>
-            <a href='/' className='hover:text-textGreenPhant text-textWhitePhant'>Contact</a>
+            <Link to='project' smooth={true} duration={500}>
+              Project
+            </Link>
+          </li>
+          <li className='space-x-2'>
+            <span className='text-textGreenPhant'>04.</span>
+            <Link to='contact' smooth={true} duration={500}>
+              Contact
+            </Link>
           </li>
         </ol>
       </div>
+      <div onClick={handleClick} className='md:hidden'>
+      {nav?'':<FaBars />}
+      </div>
+      <ul className={!nav ? 'hidden' : 'mt-96 border border-sky-500v w-80 h-6/6 bg-[#0a192f] flex flex-col justify-center items-center z-10'}>
+        <div onClick={handleClick} className="ml-60 absolute top-10">
+          {<FaTimes />}
+        </div>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+                        Home
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+                        About
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link to='skills' smooth={true} duration={500}>
+                        Skills
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+                        Work
+                    </Link>
+                </li>
+                <li className='py-6 text-4xl'>
+                    <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
+                        Contact
+                    </Link>
+                </li>
+            </ul>
     </nav>
   )
 }

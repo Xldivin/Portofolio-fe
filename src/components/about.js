@@ -4,7 +4,7 @@ import landing from './img/strikerpht_1.jpg'
 
 function about() {
   return (
-    <div className='col-start-1 col-end-13 row-start-1 lg:col-start-2 col-end-11 row-start-2 row-end-13 md:col-start-2 col-end-13 bg-bgColor'>
+    <div name='about' className='col-start-1 col-end-13 row-start-1 lg:col-start-2 col-end-11 row-start-2 row-end-13 md:col-start-2 col-end-13 bg-bgColor'>
       <div className='ml-6 lg:ml-24 mt-36 md:mt-36 ml-6'>
       <div className='mt-24 text-white text-4xl'>
       <span className='text-textGreenPhant font-bold'>01.</span>
