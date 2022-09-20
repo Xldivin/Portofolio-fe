@@ -41,7 +41,7 @@ function Navbar() {
       <div onClick={handleClick} className='md:hidden'>
       {nav?'':<FaBars />}
       </div>
-      <ul className={!nav ? 'hidden' : 'mt-96 border border-sky-500v w-80 h-6/6 bg-[#0a192f] flex flex-col justify-center items-center z-10'}>
+      <ul className={!nav ? 'hidden' : 'mt-96 border border-sky-500v w-full h-6/6 bg-[#0a192f] flex flex-col justify-center items-center z-50 relative top-6'}>
         <div onClick={handleClick} className="ml-60 absolute top-10">
           {<FaTimes />}
         </div>
@@ -56,13 +56,8 @@ function Navbar() {
                     </Link>
                 </li>
                 <li className='py-6 text-4xl'>
-                    <Link to='skills' smooth={true} duration={500}>
-                        Skills
-                    </Link>
-                </li>
-                <li className='py-6 text-4xl'>
-                    <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-                        Work
+                    <Link onClick={handleClick} to='project' smooth={true} duration={500}>
+                        Project
                     </Link>
                 </li>
                 <li className='py-6 text-4xl'>
@@ -70,7 +65,7 @@ function Navbar() {
                         Contact
                     </Link>
                 </li>
-            </ul>
+      </ul>
     </nav>
   )
 }

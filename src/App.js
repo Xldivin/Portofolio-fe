@@ -24,10 +24,10 @@ function App() {
       <div className='grid grid-cols-12 grid-rows-12 overflow-x-hidden overflow-y-hidden'>
       <Contact />
       </div> 
-      <div className='overflow-x-hidden overflow-y-hidden'>
+      <div className='h-12/12 overflow-x-hidden overflow-y-hidden'>
       <Footer />
       </div>
-    </div> 
+    </div>
   );
 }
 

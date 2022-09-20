@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai';
+import  { useState } from 'react';
 
 function Contact() {
   return (
@@ -32,28 +33,24 @@ function Contact() {
             </div>
             <div className='flex flex-col items-center'>
             <input
-            className='bg-slate-800 p-2 text-sm border-b-2 border-gray-400 outline-none opacity-50 focus:border-blue-400 w-4/6 text-white'
+            className='bg-slate-800 p-2  border-b-2 border-gray-400 outline-none focus:border-blue-400 w-4/6 text-white'
             placeholder='Enter Your Name'
             type='text'
-            name='name'
             />
             <input
-            className='bg-slate-800 p-2 text-sm border-b-2 border-gray-400 outline-none opacity-50 focus:border-blue-400 w-4/6 text-white'
+            className='bg-slate-800 p-2 text-sm border-b-2 border-gray-400 outline-none focus:border-blue-400 w-4/6 text-white'
             placeholder='Enter Your Email'
             type='text'
-            name='email'
             />
             <input
-            className='bg-slate-800 p-2 text-sm border-b-2 border-gray-400 outline-none opacity-50 focus:border-blue-400 w-4/6 text-white'
+            className='bg-slate-800 p-2 text-sm border-b-2 border-gray-400 outline-none focus:border-blue-400 w-4/6 text-white'
             placeholder='Enter Subject'
             type='text'
-            name='Subject'
             />
             <input
-            className='bg-slate-800 p-2 text-sm border-b-2 border-gray-400 outline-none opacity-50 focus:border-blue-400 w-4/6 font-Montserrat text-white'
+            className='bg-slate-800 p-2 text-sm border-b-2 border-gray-400 outline-none focus:border-blue-400 w-4/6 font-Montserrat text-white'
             placeholder='Enter Your Message'
             type='text'
-            name='message'
             />
             </div>
             <div className='lg:ml-28 md:ml-20'>
