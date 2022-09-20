@@ -19,7 +19,7 @@ function Main() {
         <br/>
         <div>
         <p className='text-textWhittishPhant'>
-        Passionate software development professional with experience in<br/> Software development applicationsexceptional digital experiences. Currently<br/> Well-versed in software trends and confident in multiple languages, frameworks and programming tools.
+        Passionate software development professional with experience in<br/> Software development applications, exceptional digital experiences. Currently<br/> Well-versed in software trends and confident in multiple languages, frameworks and programming tools.
         </p>
         <br/>
         <button className='border rounded-none w-32 h-12 border-textGreenPhant hover:bg-zinc-400 text-textGreenPhant'>

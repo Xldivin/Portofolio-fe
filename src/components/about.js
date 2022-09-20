@@ -1,5 +1,6 @@
 import React from 'react';
 import landing from './img/strikerpht_1.jpg'
+import { FaChevronRight } from 'react-icons/fa';
 
 
 function about() {
@@ -28,16 +29,56 @@ function about() {
       <div className=''>
         <ul className='list-disc flex'>
             <div className='text-textWhittishPhant'>
-            <li className='font-mono'>JavaScript (ES6+)</li>
-            <li className='font-mono'>React</li>
-            <li className='font-mono'>Node.js</li>
-            <li className='font-mono'>TypeScript</li>
+            <ul className='font-mono flex'>
+            <span className='mt-1'>
+            <FaChevronRight className='text-textWhittishPhant'/>
+            </span>
+            <p>JavaScript (ES6+)</p>
+            </ul>
+            <ul className='font-mono flex'>
+            <span className='mt-1'>
+            <FaChevronRight className='text-textWhittishPhant'/>
+            </span>
+              React
+            </ul>
+            <ul className='font-mono flex'>
+            <span className='mt-1'>
+            <FaChevronRight className='text-textWhittishPhant'/>
+            </span>
+              Node.js
+            </ul>
+            <ul className='font-mono flex'>
+            <span className='mt-1'>
+            <FaChevronRight className='text-textWhittishPhant'/>
+            </span>
+              TypeScript
+            </ul>
             </div>
             <div className='ml-20 text-textWhittishPhant'>
-            <li className='font-mono'>Dart</li>
-            <li className='font-mono'>Flutter</li>
-            <li className='font-mono'>C-Progarmming language</li>
-            <li className='font-mono'>C++</li>
+            <ul className='font-mono flex'>
+            <span className='mt-1'>
+            <FaChevronRight className='text-textWhittishPhant'/>
+            </span>
+              Dart
+            </ul>
+            <ul className='font-mono flex'>
+            <span className='mt-1'>
+            <FaChevronRight className='text-textWhittishPhant'/>
+            </span>
+              Flutter
+            </ul>
+            <ul className='font-mono flex'>
+            <span className='mt-1'>
+            <FaChevronRight className='text-textWhittishPhant'/>
+            </span>
+              C-Progarmming language
+            </ul>
+            <ul className='font-mono flex'>
+            <span className='mt-1'>
+            <FaChevronRight className='text-textWhittishPhant'/>
+            </span>
+              C++
+            </ul>
             </div>
         </ul>
       </div>

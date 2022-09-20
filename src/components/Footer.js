@@ -7,6 +7,7 @@ import { GoLocation } from 'react-icons/go';
 import { AiTwotonePhone } from 'react-icons/ai';
 import { SiMinutemailer } from 'react-icons/si';
 import { Link } from 'react-scroll'
+import logo from '../assets/Logo.png'
 
 function Footer() {
   return (
@@ -16,7 +17,7 @@ function Footer() {
       <div className='flex'>
       <div className='hidden md:block relative top-10 lg:block'>
       <div className='lg:ml-20 md:ml-6'>
-      <p className='text-textWhittishPhant'>Logo</p>
+      <img src={logo} className= 'w-10'/>
       </div>
      <div className='md:ml-2 w-40 lg:ml-20 relative top-6'>
      <p className='text-textWhittishPhant'>
@@ -153,9 +154,9 @@ function Footer() {
     </div>
     <div className='lg:mr-56'>
     <div className='text-center mt-10 text-textWhittishPhant w-96 md:ml-44 lg:ml-auto mr-96'>
-        <p>Developed by Axel Divin
+        <p>Done by Axel Divin
         </p>
-        <p>Done with <span className='text-red-600'>❤️</span></p>
+        <p>Developed with <span className='text-red-600'>❤️</span></p>
       </div>
     </div>
   </footer>

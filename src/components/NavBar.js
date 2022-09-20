@@ -1,15 +1,18 @@
 import React, { useState } from 'react'
 import "../Nav.css";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaBars, FaTimes} from 'react-icons/fa'
 import About from './about'
 import { Link } from 'react-scroll'
+import logo from '../assets/Logo.png'
 
 function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
     <nav className= "fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-800 text-gray-300 lg:row-start-1 row-end-2 col-start-1 col-end-13">
-      <div className='lg:mt-4 md:mt-4'>logo</div>
+      <div>
+        <img src={logo} className= 'w-10'/>
+      </div>
       <div className='md:mt-4 block lg:mt-4 block'>
         <ol className='hidden md:flex space-x-8 mr-6'>
         <li className='space-x-2'>
