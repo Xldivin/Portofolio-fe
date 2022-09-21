@@ -36,21 +36,25 @@ function Contact() {
             className='bg-slate-800 p-2  border-b-2 border-gray-400 outline-none focus:border-blue-400 w-4/6 text-white'
             placeholder='Enter Your Name'
             type='text'
+            name='names'
             />
             <input
             className='bg-slate-800 p-2 text-sm border-b-2 border-gray-400 outline-none focus:border-blue-400 w-4/6 text-white'
             placeholder='Enter Your Email'
             type='text'
+            name='emails'
             />
             <input
             className='bg-slate-800 p-2 text-sm border-b-2 border-gray-400 outline-none focus:border-blue-400 w-4/6 text-white'
             placeholder='Enter Subject'
             type='text'
+            name='subjects'
             />
             <input
             className='bg-slate-800 p-2 text-sm border-b-2 border-gray-400 outline-none focus:border-blue-400 w-4/6 font-Montserrat text-white'
             placeholder='Enter Your Message'
             type='text'
+            name='messages'
             />
             </div>
             <div className='lg:ml-28 md:ml-20'>
