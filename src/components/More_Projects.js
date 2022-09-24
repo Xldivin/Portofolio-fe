@@ -9,15 +9,14 @@ function More_Projects({project}) {
                 <div>
                     <h2 className='ml-40 mt-16 text-2xl text-textWhitePhant'>{project.project}</h2>
                     <div className='border border-slate-800 bg-slate-800 absolute right-80 mt-12 p-8 text-textWhitePhant'>
-                        img elements must have an alt prop, either with
-                        <br />meaningful text, or an empty string for decorative images
+                       {project.description}
                     </div>
                     <div className='flex mt-44 ml-12 text-textWhitePhant'>
-                        <p className='ml-4'>dart</p>
-                        <p className='ml-4'>flutter</p>
-                        <p className='ml-4'>html</p>
-                        <p className='ml-4'>css</p>
-                        <p className='ml-4'>node</p>
+                        <p className='ml-4'>{project.technology}</p>
+                        <p className='ml-4'>{project.technology2}</p>
+                        <p className='ml-4'>{project.technology3}</p>
+                        <p className='ml-4'>{project.technology4}</p>
+                        <p className='ml-4'>{project.technology5}</p>
                     </div>
                     <div class="pt-4 pl-2 ml-56 mt-16">
                         <a href="" target="_blank" class="relative px-6 py-3 font-bold text-gray-100 text-md group" rel="noreferrer">
