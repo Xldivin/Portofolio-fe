@@ -9,7 +9,7 @@ function Project() {
           "technology":"Javascript",
           "technology2":"Html",
           "technology3":"Css",
-          "link":"https://github.com/Xldivin/To-do-app-js"
+          "link":"https://xldivin-to-do-app.netlify.app/"
         },
         {
           "project":"Deprecated Portofolio",
@@ -17,7 +17,7 @@ function Project() {
           "technology":"Html",
           "technology2":"Css",
           "technology3":"Node-js",
-          "link":"https://github.com/Xldivin/personal-website"
+          "link":"https://axel-divin.netlify.app/"
         },      
         {
           "project":"Ubudehe Management",
