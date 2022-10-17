@@ -15,30 +15,30 @@ function Navbar() {
       </div>
       <div className='md:mt-4 block lg:mt-4 block'>
         <ol className='hidden md:flex space-x-8 mr-6'>
-        <li className='space-x-2'>
+        <a className='space-x-2' href='#'>
             <span className='text-textGreenPhant'>01.</span>
             <Link to='home' smooth={true} duration={500}>
               Home
             </Link>
-          </li>
-          <li className='space-x-2'>
+        </a>
+          <a className='space-x-2' href='#'>
             <span className='text-textGreenPhant'>02.</span>
             <Link to='about' smooth={true} duration={500}>
               About
             </Link>
-          </li>
-          <li className='space-x-2'>
+          </a>
+          <a className='space-x-2' href='#'>
             <span className='text-textGreenPhant'>03.</span>
             <Link to='project' smooth={true} duration={500}>
               Project
             </Link>
-          </li>
-          <li className='space-x-2'>
+          </a>
+          <a className='space-x-2' href='#'>
             <span className='text-textGreenPhant'>04.</span>
             <Link to='contact' smooth={true} duration={500}>
               Contact
             </Link>
-          </li>
+          </a>
         </ol>
       </div>
       <div onClick={handleClick} className='md:hidden'>

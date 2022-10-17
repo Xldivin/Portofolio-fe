@@ -12,12 +12,12 @@ function Project() {
           "link":"https://xldivin-to-do-app.netlify.app/"
         },
         {
-          "project":"Deprecated Portofolio",
-          "description":"This is the old Portofolio",
-          "technology":"Html",
-          "technology2":"Css",
-          "technology3":"Node-js",
-          "link":"https://axel-divin.netlify.app/"
+          "project":"Flash-card",
+          "description":"This is an app that have different cards to help you in your study",
+          "technology":"Typescript",
+          "technology2":"Graphql",
+          "technology3":"Prisma",
+          "link":"https://flashcard-i4q6xo1zd-xldivin.vercel.app/"
         },      
         {
           "project":"Ubudehe Management",
@@ -33,19 +33,20 @@ function Project() {
           "link":"https://github.com/Xldivin/world-time-zone"
         },
         {
-          "project":"Flash-card",
-          "description":"This is an app that have different that manages different flash-cards",
+          "project":"Deprecated Portofolio",
+          "description":"This is the old Portofolio",
+          "technology":"Html",
+          "technology2":"Css",
+          "technology3":"Node-js",
+          "link":"https://axel-divin.netlify.app/"
+        },
+        {
+          "project":"Flash-Card-Backend",
+          "description":"This is an app to manage cards Backend",
           "technology":"Typescript",
           "technology2":"Graphql",
           "technology3":"Prisma",
-          "link":"https://github.com/Xldivin/flashcard-be"
-        },
-        {
-          "project":"Google Authentication",
-          "description":"This is an app that performs google authentication",
-          "technology":"Dart",
-          "technology2":"Flutter",
-          "link":"https://github.com/Xldivin/Google-Authentication-"
+          "link":"https://flashcard-bee-production.up.railway.app/"
         }
       ]
   return (
@@ -77,3 +78,5 @@ function Project() {
 }
 
 export default Project
+
+

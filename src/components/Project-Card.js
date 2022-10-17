@@ -14,9 +14,11 @@ function Project_Card({project}) {
           </a>
         </div>
         <div className='ml-4 mt-2'>
+          <a href={project.link}>
           <h5 className='text-textWhitePhant font-bold text-3xl hover:text-textGreenPhant'>
           {project.project}
           </h5>
+          </a>
           <p className='text-textWhittishPhant text-lg h-1 w-40'>
             {project.description}
           </p>
