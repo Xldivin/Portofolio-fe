@@ -105,9 +105,6 @@ function Footer() {
     <span className='mt-1'>
     <GoLocation size='30' className='text-textWhitePhant'/>
     </span>
-    {/* <p >
-    KN 49 St,Kigali-Nyamirambo
-    </p> */}
     <a href='https://www.google.com/search?q=KN+49+St%2CKigali-Nyamirambo&oq=KN+49+St%2CKigali-Nyamirambo&aqs=chrome..69i57.455j0j7&sourceid=chrome&ie=UTF-8'rel='noopener noreferrer' className='text-textWhittishPhant ml-6 mt-2 hover:translate-x-4'>KN 49 St,Kigali-Nyamirambo</a>
   </li>
   <li className='flex'>
@@ -130,7 +127,7 @@ function Footer() {
       <div>
         <ul className='flex'>
           <li className='text-textWhitePhant hover:translate-x-4'>
-            <a href='https://github.com/' rel='noopener noreferrer'>
+            <a href='https://twitter.com/axel_divin' rel='noopener noreferrer'>
               <AiOutlineTwitter size='30' />
             </a>
           </li>
