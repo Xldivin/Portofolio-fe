@@ -21,7 +21,7 @@ function Footer() {
       </div>
      <div className='md:ml-2 w-40 lg:ml-20 relative top-6'>
      <p className='text-textWhittishPhant'>
-      Well-qualified Full Stack Developer<br/>quick leaner and can be<br/> able to work in any environment.
+      Well-qualified Full Stack Developer<br/>quick leaner and can be able to work in Agile Environment.
      </p>
      </div>
      </div>
@@ -33,7 +33,7 @@ function Footer() {
     <span className='mt-1'>
     <FaChevronRight className='text-textWhittishPhant'/>
     </span>
-    <Link to='home' smooth={true} duration={500} className='text-textWhittishPhant hover:translate-x-4'>
+    <Link to='home' smooth={true} duration={500} className='text-textWhittishPhant hover:translate-x-4 cursor-pointer'>
       Home
     </Link>
   </li>
@@ -41,7 +41,7 @@ function Footer() {
     <span className='mt-1'>
     <FaChevronRight className='text-textWhittishPhant'/>
     </span>
-    <Link to='about' smooth={true} duration={500} className='text-textWhittishPhant hover:translate-x-4'>
+    <Link to='about' smooth={true} duration={500} className='text-textWhittishPhant hover:translate-x-4 cursor-pointer'>
       About
     </Link>
   </li>
@@ -49,7 +49,7 @@ function Footer() {
     <span className='mt-1'>
     <FaChevronRight className='text-textWhittishPhant'/>
     </span>
-    <Link to='project' smooth={true} duration={500} className='text-textWhittishPhant hover:translate-x-4'>
+    <Link to='project' smooth={true} duration={500} className='text-textWhittishPhant hover:translate-x-4 cursor-pointer'>
       Project
     </Link>
   </li>
@@ -57,7 +57,7 @@ function Footer() {
     <span className='mt-1'>
     <FaChevronRight className='text-textWhittishPhant'/>
     </span>
-    <Link to='contact' smooth={true} duration={500} className='text-textWhittishPhant hover:translate-x-4'>
+    <Link to='contact' smooth={true} duration={500} className='text-textWhittishPhant hover:translate-x-4 cursor-pointer'>
       Contact
     </Link>
   </li>
