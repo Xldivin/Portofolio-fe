@@ -17,7 +17,7 @@ function Project() {
           "technology":"Typescript",
           "technology2":"Graphql",
           "technology3":"Prisma",
-          "link":"https://flashcard-i4q6xo1zd-xldivin.vercel.app/"
+          "link":"https://flashcard-ihmzukroc-xldivin.vercel.app/"
         },      
         {
           "project":"Ubudehe Management",
