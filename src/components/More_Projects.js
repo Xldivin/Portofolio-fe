@@ -19,9 +19,10 @@ function More_Projects({project}) {
                         <p className='ml-4'>{project.technology5}</p>
                     </div>
                     <div class="pt-4 pl-2 ml-56 mt-16">
-                        <a href="" target="_blank" class="relative px-6 py-3 font-bold text-gray-100 text-md group" rel="noreferrer">
+                        <a href="" target="_blank" class="relative px-6 py-3 font-bold text-md group" rel="noreferrer">
                             <span class="absolute inset-0 w-full h-full transition duration-300 ease-out transform -translate-x-2 -translate-y-2 bg-[#6b7280] group-hover:translate-x-0 group-hover:translate-y-0"></span>
-                            <span class="absolute inset-0 w-full h-full border-4 border-textWhitePhant"></span><span class="relative text-textGreenPhant">View Project</span></a>
+                            <span class="absolute inset-0 w-full h-full border-4 border-textWhitePhant"></span><span class="relative text-textGreenPhant">View Project</span>
+                        </a>
                     </div>
                 </div>
             </div>

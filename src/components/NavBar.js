@@ -9,7 +9,7 @@ function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <nav className= "fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-800 text-gray-300 lg:row-start-1 row-end-2 col-start-1 col-end-13">
+    <nav className= "fixed w-full h-[80px] flex justify-between items-center px-4 bg-slate-800 text-gray-300 z-10 lg:row-start-1 row-end-2 col-start-1 col-end-13">
       <div>
         <img src={logo} className= 'w-10'/>
       </div>

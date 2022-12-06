@@ -7,6 +7,7 @@ import Project from './components/Project';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Asidebar from './components/Asidebar';
+import More_Projects1 from './components/More_Projects1';
 function App() {
   return (
     <div className='flex flex-col'>
@@ -27,6 +28,7 @@ function App() {
       <div className='h-12/12 overflow-x-hidden overflow-y-hidden'>
       <Footer />
       </div>
+      {/* <More_Projects1 /> */}
     </div>
   );
 }
