@@ -77,7 +77,7 @@ function about() {
                     <span className='mt-1'>
                       <FaChevronRight className='text-textWhittishPhant' />
                     </span>
-                    C++
+                    Java
                   </ul>
                 </div>
               </ul>
