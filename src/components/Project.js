@@ -9,48 +9,62 @@ function Project() {
       "technology": "Javascript",
       "technology2": "Html",
       "technology3": "Css",
-      "link": "https://xldivin-to-do-app.netlify.app/"
+      "link": "https://xldivin-to-do-app.netlify.app/",
+      "github":"https://github.com/Xldivin/To-do-app-js"
     },
     {
-      "project": "Ubudehe Management",
+      "project": "Talent-Vetting-Platform Umurava",
       "description": "This app is a database app which manages ubudehe categories",
-      "technology": "C-programming language",
-      "link": "https://github.com/Xldivin/Ubudehe-Management"
+      "technology": "Next-js",
+      "technology2": "React-js",
+      "technology3": "javascript",
+      "link": "https://umurava.africa/",
+      "github":"https://github.com/Umurava/Frontend"
     },
     {
       "project": "World-time-zone",
       "description": "This is an app that which shows clock in many cities of the world",
       "technology": "Dart",
       "technology2": "Flutter",
-      "link": "https://github.com/Xldivin/world-time-zone"
+      "link": "https://github.com/Xldivin/world-time-zone",
+      "github":"https://github.com/Xldivin/world-time-zone"
     },
     {
-      "project": "Deprecated Portofolio",
-      "description": "This is the old Portofolio",
+      "project": "Phantom Backend",
+      "description": "This is the project to reduce the problem of waiting for public-transport",
       "technology": "Html",
       "technology2": "Css",
       "technology3": "Node-js",
-      "link": "https://axel-divin.netlify.app/"
+      "link": "https://github.com/atlp-rwanda/phantom-be-elite",
+      "github":"https://github.com/atlp-rwanda/phantom-be-elite"
     },
     {
       "project": "Flash-Card-Backend",
-      "description": "This is an app to manage cards Backend",
+      "description": "This is an app to manage cards Backend (refer to the github readme for better use)",
       "technology": "Typescript",
       "technology2": "Graphql",
       "technology3": "Prisma",
-      "link": "https://flashcard-bee-production.up.railway.app/"
+      "link": "https://flash-emx7.onrender.com/",
+      "github":"https://github.com/Xldivin/Flashcard-bee"
     }
   ]
+
+  //world time zone
+  //flashcard-backend
+  //umurava
+  //to-do-app
+  //phantom-be-elite
+
   return (
-    <div name='project' className='col-start-1 col-end-13 md:col-start-2 col-end-13 lg:col-start-2 col-end-11 row-start-2 row-end-13 bg-bgColor'>
-      <div className='ml-6 -mt-10 md:mt-24 mr-10 lg:ml-24 mt-36'>
+    <div name='project' className='container bg-bgColor mx-auto px-4'>
+      <div className='ml-6 mt-4 md:mt-24 mr-10 lg:ml-24 mt-36'>
         <div className='text-white text-4xl w-96'>
           <span className='text-textGreenPhant font-bold'>02.</span>
           <span className='text-textWhitePhant text-4xl ml-8 underline font-bold'>Recent Work</span>
         </div>
         <div>
         </div>
-        <div className='grid grid-cols-1 gap-5 relative -left-6 md:grid-cols-2  gap-32 lg:grid-cols-3 gap-5 left-10'>
+        <div className='flex flex-wrap gap-5 justify-center items-center relative left-0 md:gap-2 lg:gap-10'>
           {
             projects.map((project) => {
               return <Project_Card project={project} />

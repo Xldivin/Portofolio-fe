@@ -3,8 +3,8 @@ import Resume from '../assets/Resume.pdf'
 
 function Main() {
   return (
-    <div name='home' className='col-start-1 col-end-13 row-start-1 lg:col-start-2 col-end-13 row-start-2 row-end-13 md:col-start-2 col-end-13 bg-bgColor'>
-      <div className='ml-6 mt-10 lg:ml-24 md:mt-36 ml-6'>
+    <div name='home' className='container bg-bgColor mx-auto px-4'>
+      <div className='flex flex-col w-[100%] h-[100%] justify-start items-start ml-6 mt-[10rem] lg:ml-[10rem] md:mt-36 ml-6 '>
         <div>
         <h1 className='text-textGreenPhant font-mono'>Hi, my name is </h1>
         </div>
@@ -14,11 +14,11 @@ function Main() {
         </div>
         <br/>
         <div>
-        <h2 className='text-textWhittishPhant text-8xl'>I build things for the web</h2>
+        <h2 className='text-textWhittishPhant text-8xl w-[22rem] md:w-[40rem] lg:w-[50rem]'>I build things for the web</h2>
         </div>
         <br/>
         <div>
-        <p className='text-textWhittishPhant'>
+        <p className='text-textWhittishPhant w-[21rem] md:w-[40rem] lg:w-[50rem]'>
         Passionate software development professional with experience in<br/> Software development applications, exceptional digital experiences. Currently<br/> Well-versed in software trends and confident in multiple languages, frameworks and programming tools.
         </p>
         <br/>

@@ -5,13 +5,13 @@ import { FaChevronRight } from 'react-icons/fa';
 
 function about() {
   return (
-    <div name='about' className='col-start-1 col-end-13 row-start-1 lg:col-start-2 col-end-11 row-start-2 row-end-13 md:col-start-2 col-end-13 bg-bgColor'>
-      <div className='ml-6 lg:ml-24 mt-36 md:mt-36 ml-6'>
+    <div name='about' className='container bg-bgColor w-[100%] h-[100%] mx-auto px-4'>
+      <div className='ml-6 lg:ml-24 mt-32 md:mt-36 ml-6'>
         <div className='mt-24 text-white text-4xl'>
           <span className='text-textGreenPhant font-bold'>01.</span>
           <span className='text-textWhitePhant text-4xl ml-8 underline font-bold'>About Me</span>
         </div>
-        <div className='mt-10 flex justify-between lg:flex-row md:flex flex-col'>
+        <div className='mt-10 flex justify-around lg:flex-row md:flex flex-col'>
           <div>
             <p className='text-textWhittishPhant text-xl md:w-70'>Hello! My name is Axel and I enjoy building things that live<br />
               on the internet.my journey started in 2020 when I joined the<br />
@@ -85,7 +85,7 @@ function about() {
           </div>
           <div className='mt-10'>
             <img
-              className='h-80 ml-10'
+              className='h-80 ml-[10px]'
               src={landing}
             />
           </div>

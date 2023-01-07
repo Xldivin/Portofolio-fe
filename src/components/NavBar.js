@@ -44,7 +44,7 @@ function Navbar() {
       <div onClick={handleClick} className='md:hidden'>
       {nav?'':<FaBars />}
       </div>
-      <ul className={!nav ? 'hidden' : 'mt-96 border border-sky-500v w-full h-6/6 bg-[#0a192f] flex flex-col justify-center items-center z-50 relative top-6'}>
+      <ul className={!nav ? 'hidden' : 'mt-[17.3rem] border border-slate-700 w-[150rem] h-6/6 bg-[#0a192f] flex flex-col justify-center items-center z-50'}>
         <div onClick={handleClick} className="ml-60 absolute top-10">
           {<FaTimes />}
         </div>
